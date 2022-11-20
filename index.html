@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uniLad</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- colaps start -->
+
+    <!-- ### Navigation Bar ### -->
+    <div class="nav-area">
+        <div class="navbar">
+            <h3 class="nav-logo">uniLad</h3>
+            <div class="nav-icons">
+                <a href="/index.html">Home</a>
+                <a href="/pages/AboutUs.html" id="aboutUs">About Us</a>
+                <a href="/pages/ContectUs.html">Contect Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- ### Welcome area ### -->
+    <div class="welcome-area">
+        <div class="welcome">
+            <div class="title">
+                <h3 class="front-name">University Lad</h3>
+            </div>
+            <!-- Desktop Notifications  -->
+            <div class="notif-area">
+                <div class="announcmetns">
+                    <h3 class="announc-title">Notifications</h3>
+                    <ul>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti veniam iusto impedit.
+                        </li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti veniam iusto impedit.
+                        </li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti veniam iusto impedit.
+                        </li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti veniam iusto impedit.
+                        </li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti veniam iusto impedit.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ### University Cards ### -->
+    <div class="card-container">
+        <div class="container">
+            <!-- Virtual University -->
+            <div class="uni-card" id="vu">
+                <div class="card-image">
+                    <img src="./assets/vulogo.png" alt="">
+                </div>
+                <div class="uni-info">
+                    <p>VU is Pakistan's first university based completely on modern Information and Communication
+                        Technologies. Established in 2002 by the Government of Pakistan.</p>
+                    <span>Location: Pakistan</span>
+                </div>
+            </div>
+            <!-- AIOU  -->
+            <div class="uni-card" id="aiou">
+                <div class="card-image">
+                    <img src="./assets/aiou-logo.jpg" alt="">
+                </div>
+                <div class="uni-info">
+                    <p>AIOU is the world's second largest institution of higher learning. <br> The university has 44
+                        regional campuses and centers throughout Pakistan.</p>
+                    <span>Location: Pakistan</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- colaps end -->
+
+    <!-- ### Site Footer ### -->
+    <footer class="footer-container">
+
+        <div class="footer">
+            <div class="footer-logo">
+                <h3>UniversityLad.com</h3>
+            </div>
+            <div class="footer-sec1">
+                <h3>Unilad Support</h3>
+                <a href="#">WhatsApp Support</a>
+                <a href="#">University Lad Live Chat</a>
+            </div>
+            <div class="footer-sec2">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <span style="margin: 0.8em;" >Copyright 2021 <i class="far fa-copyright"></i> UniversityLad Inc</span>
+    </footer>
+
+
+    <script>
+        let vu = document.getElementById("vu");
+vu.addEventListener('click', function(){
+    window.location = "./pages/VUhome.html"
+})
+let aiou = document.getElementById("aiou");
+aiou.addEventListener('click', function(){
+    window.location = "./pages/AIOUhome.html"
+})
+    </script>
+        <!-- Font Awsome Icons Kit  -->
+        <script src="https://kit.fontawesome.com/1bed0bf3f1.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/* page head styling */
+.container {
+  height: 100vh;
+  background-color: #2f3640;
+}
+.container .contectus-head {
+  /* height: 20%; */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .contectus-head h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0.2em;
+}
+.container .contectus-head span {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.container .contectus-head p {
+  font-size: 1.4em;
+}
+/* page body styling */
+.container .container-body {
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* SEND MAIL PART OF GRID */
+.container .container-body .send-mail h3 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0.6em;
+}
+.container .container-body .send-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .container-body .send-mail input {
+  padding: 0.8em;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  font-size: 1em;
+  height: 0.8em;
+  margin: 0.6em;
+  outline: none;
+  border: none;
+  width: 55%;
+}
+
+.container .container-body .send-mail .message {
+  width: 55%;
+  padding: 0.8em;
+  border: none;
+  resize: none;
+  outline: none;
+  margin: 0.6em;
+  font-size: 1em;
+  border-radius: 2px;
+  letter-spacing: 2px;
+}
+.container .container-body .send-mail .submit {
+  color: white;
+  height: 1.8em;
+  width: 36%;
+  margin: 0.6em;
+  cursor: pointer;
+  font-size: 1.3em;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+/* Address Part Styling */
+.container-body .address {
+  border-left: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-body .address h3 {
+  color: white;
+}
+.container-body .address span {
+  color: white;
+}
+/* Section two styling in address section */
+.container-body .address .sec2 {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+.container-body .address .sec2 h3 {
+  font-weight: 400;
+}
+.container-body .address .sec2 .n-inUs {
+  padding: 0.7em;
+}
+.container-body .address .sec2 .phNo {
+  padding: 0.7em;
+}
+.container-body .address .sec2 .mailUs {
+  padding: 0.7em;
+}
+
+/* Section one styling in address section */
+.container-body .address .sec1 {
+  margin: 0 0 4em 0;
+  display: flex;
+  flex-direction: column;
+}
+.container-body .address .sec1 i {
+  padding: 1em;
+  font-size: 1.3em;
+  color: white;
+}
+
+/* social media icons styling */
+/* .container-body .address .sec2 .social-icons {
+  margin: 1em 0 0 0;
+} */
+.fa {
+  border-radius: 6px;
+  width: 0.8em;
+  font-size: 1.2em;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.1em;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Mobilre Resposive */
+@media (max-width:480px){
+  .container {
+    height: auto;
+    background-color: #2f3640;
+  }
+  .container .contectus-head {
+    /* height: 20%; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container .contectus-head h3 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0.2em;
+  }
+  .container .contectus-head span {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+  .container .contectus-head p {
+    font-size: 1.1em;
+    padding: 0.4rem 0 0.4rem 0;
+    text-align: center;
+  }
+  /*Page Body RESPONSIVE*/
+  .container .container-body {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* SEND MAIL PART OF GRID */
+  .container .container-body .send-mail h3 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0.6em;
+  }
+  .container .container-body .send-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container .container-body .send-mail input {
+    padding: 0.8em;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    font-size: 1em;
+    height: 0.8em;
+    margin: 0.6em;
+    outline: none;
+    border: none;
+    width: 80%;
+  }
+  
+  .container .container-body .send-mail .message {
+    width: 80%;
+    padding: 0.8em;
+    border: none;
+    resize: none;
+    outline: none;
+    margin: 0.6em;
+    font-size: 1em;
+    border-radius: 2px;
+    letter-spacing: 2px;
+  }
+  .container .container-body .send-mail .submit {
+    color: white;
+    height: 1.8em;
+    width: 80%;
+    margin: 0.6em;
+    cursor: pointer;
+    font-size: 1.3em;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: transparent;
+  }
+  /* Address Part Styling */
+  .container-body .address {
+    border-left: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-body .address h3 {
+    color: white;
+  }
+  .container-body .address span {
+    color: white;
+  }
+  /* Section two styling in address section */
+  .container-body .address .sec2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+  }
+  .container-body .address .sec2 h3 {
+    font-weight: 400;
+  }
+  .container-body .address .sec2 .n-inUs {
+    padding: 0.7em;
+  }
+  .container-body .address .sec2 .phNo {
+    padding: 0.7em;
+  }
+  .container-body .address .sec2 .mailUs {
+    padding: 0.7em;
+  }
+  
+  /* Section one styling in address section */
+  .container-body .address .sec1 {
+    margin: 0 0 2em 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-body .address .sec1 i {
+    padding: 1em;
+    font-size: 1.3em;
+    color: white;
+  }
+  
+  /* social media icons styling */
+  .fa {
+    border-radius: 6px;
+    width: 1em;
+    font-size: 1.2em;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.1em;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  }
+
+

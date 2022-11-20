@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="../css/vu-styling.css" />
+  <script src="https://kit.fontawesome.com/5674600cff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="head-container">
+    <div class="head">
+      <span class="uni-title">Virtual University of Pakistan</span>
+      <h1>THE UNIVERSITY THAT NEVER SLEEP</h1>
+      <button id="go-to-home">Go to Home</button>
+    </div>
+  </div>
+  <div class="stuff-cards">
+    <!-- Past Papers Card -->
+    <div class="card past-papers" id="papers-vu">
+      <div class="card-logo">
+        <i class="far fa-copy"></i>
+      </div>
+      <div class="material">
+        <h3>Past Papers</h3>
+        <p>From here you can easily download all kinds of Past Papers.</p>
+      </div>
+    </div>
+    <!-- Assignment Card -->
+    <div class="card assignments">
+      <div class="card-logo">
+        <i class="fas fa-book-open"></i>
+      </div>
+      <div class="material">
+        <h3>Assignments</h3>
+        <p>Get latest assignments of every subject Here.</p>
+      </div>
+    </div>
+
+    <!-- Quizz Card -->
+    <div class="card quizz">
+      <div class="card-logo">
+        <i class="far fa-question-circle"></i>
+      </div>
+      <div class="material">
+        <h3>Quizez</h3>
+        <p>Virtual University Latest Quizez</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ### Footer HTML ### -->
+  <!-- ### Site Footer ### -->
+  <footer class="footer-container">
+    <div class="footer">
+      <div class="footer-logo">
+        <h3>UniversityLad.com</h3>
+      </div>
+      <div class="footer-sec1">
+        <h3>Unilad Support</h3>
+        <a href="#">WhatsApp Support</a>
+        <a href="#">University Lad Live Chat</a>
+      </div>
+      <div class="footer-sec2">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+    <span style="margin: 0.8em;">Copyright 2021 <i class="far fa-copyright"></i> UniversityLad Inc</span>
+  </footer>
+  <script>
+     document.getElementById("go-to-home").addEventListener('click', () =>{
+     window.location = "../index.html";   
+ });
+document.getElementById("papers-vu").addEventListener('click', function(){
+    window.location = "./Papers-vu.html"
+})
+  </script>
+  <!-- Font Awsome Icons Kit  -->
+  <script src="https://kit.fontawesome.com/1bed0bf3f1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
